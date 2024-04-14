@@ -5,11 +5,11 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.5"
+__version__ = "0.0.4"
 REPO_NAME = "mongo_package"
-PKG_NAME= "mongopackauto"
+PKG_NAME= "databaseautomation"
 AUTHOR_USER_NAME = "Darkaido"
-AUTHOR_EMAIL = "dev.loksun.ai@gmail.com"
+AUTHOR_EMAIL = "amanjain781@gmail.com"
 
 setup(
     name=PKG_NAME,
@@ -26,3 +26,5 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     )
+
+
